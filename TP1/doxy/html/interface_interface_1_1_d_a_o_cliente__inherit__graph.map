@@ -1,0 +1,5 @@
+<map id="Interface.DAOCliente" name="Interface.DAOCliente">
+<area shape="rect" id="node1" title=" " alt="" coords="163,5,321,32"/>
+<area shape="rect" id="node2" href="$class_my_derby_d_a_o_1_1_cliente_derby_impl.html" title=" " alt="" coords="5,80,233,107"/>
+<area shape="rect" id="node3" href="$class_my_s_q_l_d_a_o_1_1_cliente_mysql_impl.html" title=" " alt="" coords="257,80,472,107"/>
+</map>

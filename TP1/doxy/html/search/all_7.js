@@ -1,0 +1,6 @@
+var searchData=
+[
+  ['selectclientes_48',['selectClientes',['../interface_interface_1_1_d_a_o_cliente.html#a556182a49dcf3f516efbdb57ad57d6d8',1,'Interface.DAOCliente.selectClientes()'],['../class_my_derby_d_a_o_1_1_cliente_derby_impl.html#a44213f78ec940fbb226ce6e13695f7c4',1,'MyDerbyDAO.ClienteDerbyImpl.selectClientes()'],['../class_my_s_q_l_d_a_o_1_1_cliente_mysql_impl.html#aa67e8f1447feca35def4e05b9aaa4bcf',1,'MySQLDAO.ClienteMysqlImpl.selectClientes()']]],
+  ['selectfacturas_49',['selectFacturas',['../interface_interface_1_1_d_a_o_factura.html#a39207f9e9c1cf48d8f6839dfec143077',1,'Interface.DAOFactura.selectFacturas()'],['../class_my_derby_d_a_o_1_1_factura_derby_impl.html#a12b2578e364dd6efc9089e1f0a80f416',1,'MyDerbyDAO.FacturaDerbyImpl.selectFacturas()'],['../class_my_s_q_l_d_a_o_1_1_factura_mysql_impl.html#a2cfda626b2faac98230711d06b6217ea',1,'MySQLDAO.FacturaMysqlImpl.selectFacturas()']]],
+  ['selectproductos_50',['selectProductos',['../interface_interface_1_1_d_a_o_producto.html#a6437b073ade82d8b0272ca453a9a57ea',1,'Interface.DAOProducto.selectProductos()'],['../class_my_derby_d_a_o_1_1_producto_derby_impl.html#a5de08f4e688f4b013cb00eeb90957bed',1,'MyDerbyDAO.ProductoDerbyImpl.selectProductos()'],['../class_my_s_q_l_d_a_o_1_1_producto_mysql_impl.html#aec9d90263450e3f6fc0c87a4631b0a39',1,'MySQLDAO.ProductoMysqlImpl.selectProductos()']]]
+];

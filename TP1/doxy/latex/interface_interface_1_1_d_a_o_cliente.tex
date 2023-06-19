@@ -1,0 +1,148 @@
+\hypertarget{interface_interface_1_1_d_a_o_cliente}{}\doxysection{Interface.\+DAOCliente Interface Reference}
+\label{interface_interface_1_1_d_a_o_cliente}\index{Interface.DAOCliente@{Interface.DAOCliente}}
+
+
+Inheritance diagram for Interface.\+DAOCliente\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_interface_1_1_d_a_o_cliente__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_a556182a49dcf3f516efbdb57ad57d6d8}{select\+Clientes}} ()
+\item 
+void \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_ae6f5fc401d409aa3a60235846e21dc31}{create\+Cliente}} ()
+\item 
+void \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_a4717428dac2c09c124ee445517570f78}{insert\+Cliente}} (int id, String name, String mail)
+\item 
+\mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_afe7b68aa64c31baf054280e86a7b7252}{get\+Cliente}} (int id)
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_afa93f8e09a0a268f60985fc09e8e5f60}{get\+Cliente\+By\+Name}} (String name)
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_a6d0bcc3d6f7da4adb78ee03f4a590377}{get\+Cliente\+By\+Mail}} (String mail)
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_a5d2fb4b5d9fb60b8c872cc4bb4da56b5}{get\+Ranking\+Facturacion}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_cliente_ae6f5fc401d409aa3a60235846e21dc31}\label{interface_interface_1_1_d_a_o_cliente_ae6f5fc401d409aa3a60235846e21dc31}} 
+\index{Interface.DAOCliente@{Interface.DAOCliente}!createCliente@{createCliente}}
+\index{createCliente@{createCliente}!Interface.DAOCliente@{Interface.DAOCliente}}
+\doxysubsubsection{\texorpdfstring{createCliente()}{createCliente()}}
+{\footnotesize\ttfamily void Interface.\+DAOCliente.\+create\+Cliente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Create a table Cliente. 
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_cliente_mysql_impl_a37285ec87b2974b771dea2fe7a01d591}{My\+SQLDAO.\+Cliente\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_ad3bbebcc848007542aa2ea8b45bb7c01}{My\+Derby\+DAO.\+Cliente\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_cliente_afe7b68aa64c31baf054280e86a7b7252}\label{interface_interface_1_1_d_a_o_cliente_afe7b68aa64c31baf054280e86a7b7252}} 
+\index{Interface.DAOCliente@{Interface.DAOCliente}!getCliente@{getCliente}}
+\index{getCliente@{getCliente}!Interface.DAOCliente@{Interface.DAOCliente}}
+\doxysubsubsection{\texorpdfstring{getCliente()}{getCliente()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} Interface.\+DAOCliente.\+get\+Cliente (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+Gets a client by ID 
+\begin{DoxyParams}{Parameters}
+{\em id} & the client identification number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Cliente 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_cliente_mysql_impl_a6f7df987ad7a16feddf234a8af5ece9c}{My\+SQLDAO.\+Cliente\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_a06da4c288756eafa326bdbb6d2ef00b2}{My\+Derby\+DAO.\+Cliente\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_cliente_a6d0bcc3d6f7da4adb78ee03f4a590377}\label{interface_interface_1_1_d_a_o_cliente_a6d0bcc3d6f7da4adb78ee03f4a590377}} 
+\index{Interface.DAOCliente@{Interface.DAOCliente}!getClienteByMail@{getClienteByMail}}
+\index{getClienteByMail@{getClienteByMail}!Interface.DAOCliente@{Interface.DAOCliente}}
+\doxysubsubsection{\texorpdfstring{getClienteByMail()}{getClienteByMail()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}}$>$ Interface.\+DAOCliente.\+get\+Cliente\+By\+Mail (\begin{DoxyParamCaption}\item[{String}]{mail }\end{DoxyParamCaption})}
+
+Gets a list of clients with a specified email. 
+\begin{DoxyParams}{Parameters}
+{\em mail} & the String email. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array\+List of Cliente. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_cliente_mysql_impl_ae73e883162d55259fd0657b26eabbb82}{My\+SQLDAO.\+Cliente\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_ad04928cff682f7876c8b368cdce886b8}{My\+Derby\+DAO.\+Cliente\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_cliente_afa93f8e09a0a268f60985fc09e8e5f60}\label{interface_interface_1_1_d_a_o_cliente_afa93f8e09a0a268f60985fc09e8e5f60}} 
+\index{Interface.DAOCliente@{Interface.DAOCliente}!getClienteByName@{getClienteByName}}
+\index{getClienteByName@{getClienteByName}!Interface.DAOCliente@{Interface.DAOCliente}}
+\doxysubsubsection{\texorpdfstring{getClienteByName()}{getClienteByName()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}}$>$ Interface.\+DAOCliente.\+get\+Cliente\+By\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})}
+
+Gets a list of clients with a specified name. 
+\begin{DoxyParams}{Parameters}
+{\em name} & the String name. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array\+List of Cliente. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_cliente_mysql_impl_ab0507dd95185a5e1fbccf0db3e55b732}{My\+SQLDAO.\+Cliente\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_af8c69628df8873738d848a2190bdd9d0}{My\+Derby\+DAO.\+Cliente\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_cliente_a5d2fb4b5d9fb60b8c872cc4bb4da56b5}\label{interface_interface_1_1_d_a_o_cliente_a5d2fb4b5d9fb60b8c872cc4bb4da56b5}} 
+\index{Interface.DAOCliente@{Interface.DAOCliente}!getRankingFacturacion@{getRankingFacturacion}}
+\index{getRankingFacturacion@{getRankingFacturacion}!Interface.DAOCliente@{Interface.DAOCliente}}
+\doxysubsubsection{\texorpdfstring{getRankingFacturacion()}{getRankingFacturacion()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}}$>$ Interface.\+DAOCliente.\+get\+Ranking\+Facturacion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets a list of clients with a returns a list of customers sorted by billing in descending order. ~\newline
+ \begin{DoxyReturn}{Returns}
+Array\+List of Cliente. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_cliente_mysql_impl_ac7175a8275966065ce834ed3785cad76}{My\+SQLDAO.\+Cliente\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_a20a2c5ce02d5e4e70616c00a4ef4ef3f}{My\+Derby\+DAO.\+Cliente\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_cliente_a4717428dac2c09c124ee445517570f78}\label{interface_interface_1_1_d_a_o_cliente_a4717428dac2c09c124ee445517570f78}} 
+\index{Interface.DAOCliente@{Interface.DAOCliente}!insertCliente@{insertCliente}}
+\index{insertCliente@{insertCliente}!Interface.DAOCliente@{Interface.DAOCliente}}
+\doxysubsubsection{\texorpdfstring{insertCliente()}{insertCliente()}}
+{\footnotesize\ttfamily void Interface.\+DAOCliente.\+insert\+Cliente (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{String}]{name,  }\item[{String}]{mail }\end{DoxyParamCaption})}
+
+Insert a new record Cliente in the table. 
+\begin{DoxyParams}{Parameters}
+{\em id} & the Cliente identifier. \\
+\hline
+{\em name} & the Cliente name. \\
+\hline
+{\em mail} & the Cliente email. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_cliente_mysql_impl_ab9efabc8b5cbebc9c626de0aa919fc23}{My\+SQLDAO.\+Cliente\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_a44f58d068a8ed7a2248a910d6177edfc}{My\+Derby\+DAO.\+Cliente\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_cliente_a556182a49dcf3f516efbdb57ad57d6d8}\label{interface_interface_1_1_d_a_o_cliente_a556182a49dcf3f516efbdb57ad57d6d8}} 
+\index{Interface.DAOCliente@{Interface.DAOCliente}!selectClientes@{selectClientes}}
+\index{selectClientes@{selectClientes}!Interface.DAOCliente@{Interface.DAOCliente}}
+\doxysubsubsection{\texorpdfstring{selectClientes()}{selectClientes()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}}$>$ Interface.\+DAOCliente.\+select\+Clientes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the list of all Cliente records. ~\newline
+ \begin{DoxyReturn}{Returns}
+Array\+List of Cliente. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_cliente_mysql_impl_aa67e8f1447feca35def4e05b9aaa4bcf}{My\+SQLDAO.\+Cliente\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_a44213f78ec940fbb226ce6e13695f7c4}{My\+Derby\+DAO.\+Cliente\+Derby\+Impl}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Interface/DAOCliente.\+java\end{DoxyCompactItemize}

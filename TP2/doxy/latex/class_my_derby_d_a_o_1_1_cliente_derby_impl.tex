@@ -1,0 +1,158 @@
+\hypertarget{class_my_derby_d_a_o_1_1_cliente_derby_impl}{}\doxysection{My\+Derby\+DAO.\+Cliente\+Derby\+Impl Class Reference}
+\label{class_my_derby_d_a_o_1_1_cliente_derby_impl}\index{MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}}
+
+
+Inheritance diagram for My\+Derby\+DAO.\+Cliente\+Derby\+Impl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_my_derby_d_a_o_1_1_cliente_derby_impl__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for My\+Derby\+DAO.\+Cliente\+Derby\+Impl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_my_derby_d_a_o_1_1_cliente_derby_impl__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_a44213f78ec940fbb226ce6e13695f7c4}{select\+Clientes}} ()
+\item 
+void \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_ad3bbebcc848007542aa2ea8b45bb7c01}{create\+Cliente}} ()
+\item 
+void \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_a44f58d068a8ed7a2248a910d6177edfc}{insert\+Cliente}} (int id, String name, String mail)
+\item 
+\mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_a06da4c288756eafa326bdbb6d2ef00b2}{get\+Cliente}} (int id)
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_af8c69628df8873738d848a2190bdd9d0}{get\+Cliente\+By\+Name}} (String name)
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_ad04928cff682f7876c8b368cdce886b8}{get\+Cliente\+By\+Mail}} (String mail)
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} $>$ \mbox{\hyperlink{class_my_derby_d_a_o_1_1_cliente_derby_impl_a20a2c5ce02d5e4e70616c00a4ef4ef3f}{get\+Ranking\+Facturacion}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_cliente_derby_impl_ad3bbebcc848007542aa2ea8b45bb7c01}\label{class_my_derby_d_a_o_1_1_cliente_derby_impl_ad3bbebcc848007542aa2ea8b45bb7c01}} 
+\index{MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}!createCliente@{createCliente}}
+\index{createCliente@{createCliente}!MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{createCliente()}{createCliente()}}
+{\footnotesize\ttfamily void My\+Derby\+DAO.\+Cliente\+Derby\+Impl.\+create\+Cliente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create a table Cliente. 
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_ae6f5fc401d409aa3a60235846e21dc31}{Interface.\+DAOCliente}}.
+
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_cliente_derby_impl_a06da4c288756eafa326bdbb6d2ef00b2}\label{class_my_derby_d_a_o_1_1_cliente_derby_impl_a06da4c288756eafa326bdbb6d2ef00b2}} 
+\index{MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}!getCliente@{getCliente}}
+\index{getCliente@{getCliente}!MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{getCliente()}{getCliente()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}} My\+Derby\+DAO.\+Cliente\+Derby\+Impl.\+get\+Cliente (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets a client by ID 
+\begin{DoxyParams}{Parameters}
+{\em id} & the client identification number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Cliente 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_afe7b68aa64c31baf054280e86a7b7252}{Interface.\+DAOCliente}}.
+
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_cliente_derby_impl_ad04928cff682f7876c8b368cdce886b8}\label{class_my_derby_d_a_o_1_1_cliente_derby_impl_ad04928cff682f7876c8b368cdce886b8}} 
+\index{MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}!getClienteByMail@{getClienteByMail}}
+\index{getClienteByMail@{getClienteByMail}!MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{getClienteByMail()}{getClienteByMail()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}}$>$ My\+Derby\+DAO.\+Cliente\+Derby\+Impl.\+get\+Cliente\+By\+Mail (\begin{DoxyParamCaption}\item[{String}]{mail }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets a list of clients with a specified email. 
+\begin{DoxyParams}{Parameters}
+{\em mail} & the String email. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array\+List of Cliente. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_a6d0bcc3d6f7da4adb78ee03f4a590377}{Interface.\+DAOCliente}}.
+
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_cliente_derby_impl_af8c69628df8873738d848a2190bdd9d0}\label{class_my_derby_d_a_o_1_1_cliente_derby_impl_af8c69628df8873738d848a2190bdd9d0}} 
+\index{MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}!getClienteByName@{getClienteByName}}
+\index{getClienteByName@{getClienteByName}!MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{getClienteByName()}{getClienteByName()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}}$>$ My\+Derby\+DAO.\+Cliente\+Derby\+Impl.\+get\+Cliente\+By\+Name (\begin{DoxyParamCaption}\item[{String}]{name }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets a list of clients with a specified name. 
+\begin{DoxyParams}{Parameters}
+{\em name} & the String name. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array\+List of Cliente. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_afa93f8e09a0a268f60985fc09e8e5f60}{Interface.\+DAOCliente}}.
+
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_cliente_derby_impl_a20a2c5ce02d5e4e70616c00a4ef4ef3f}\label{class_my_derby_d_a_o_1_1_cliente_derby_impl_a20a2c5ce02d5e4e70616c00a4ef4ef3f}} 
+\index{MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}!getRankingFacturacion@{getRankingFacturacion}}
+\index{getRankingFacturacion@{getRankingFacturacion}!MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{getRankingFacturacion()}{getRankingFacturacion()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}}$>$ My\+Derby\+DAO.\+Cliente\+Derby\+Impl.\+get\+Ranking\+Facturacion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets a list of clients with a returns a list of customers sorted by billing in descending order. ~\newline
+ \begin{DoxyReturn}{Returns}
+Array\+List of Cliente. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_a5d2fb4b5d9fb60b8c872cc4bb4da56b5}{Interface.\+DAOCliente}}.
+
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_cliente_derby_impl_a44f58d068a8ed7a2248a910d6177edfc}\label{class_my_derby_d_a_o_1_1_cliente_derby_impl_a44f58d068a8ed7a2248a910d6177edfc}} 
+\index{MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}!insertCliente@{insertCliente}}
+\index{insertCliente@{insertCliente}!MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{insertCliente()}{insertCliente()}}
+{\footnotesize\ttfamily void My\+Derby\+DAO.\+Cliente\+Derby\+Impl.\+insert\+Cliente (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{String}]{name,  }\item[{String}]{mail }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Insert a new record Cliente in the table. 
+\begin{DoxyParams}{Parameters}
+{\em id} & the Cliente identifier. \\
+\hline
+{\em name} & the Cliente name. \\
+\hline
+{\em mail} & the Cliente email. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_a4717428dac2c09c124ee445517570f78}{Interface.\+DAOCliente}}.
+
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_cliente_derby_impl_a44213f78ec940fbb226ce6e13695f7c4}\label{class_my_derby_d_a_o_1_1_cliente_derby_impl_a44213f78ec940fbb226ce6e13695f7c4}} 
+\index{MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}!selectClientes@{selectClientes}}
+\index{selectClientes@{selectClientes}!MyDerbyDAO.ClienteDerbyImpl@{MyDerbyDAO.ClienteDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{selectClientes()}{selectClientes()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_cliente}{Cliente}}$>$ My\+Derby\+DAO.\+Cliente\+Derby\+Impl.\+select\+Clientes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets the list of all Cliente records. ~\newline
+ \begin{DoxyReturn}{Returns}
+Array\+List of Cliente. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente_a556182a49dcf3f516efbdb57ad57d6d8}{Interface.\+DAOCliente}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+My\+Derby\+DAO/Cliente\+Derby\+Impl.\+java\end{DoxyCompactItemize}

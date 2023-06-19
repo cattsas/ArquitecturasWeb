@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "b0c414c3-e982-4a93-be57-55eaee3a66ac",
+		"name": "TP3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13157854"
+	},
+	"item": [
+		{
+			"name": "a-addStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dni\": 348,\n    \"bornDate\": \"2001-09-11\",\n    \"gender\": \"M\",\n    \"name\": \"Gabriel\",\n    \"surname\": \"Ballone\",\n    \"city\": \"Tres Arroyos\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/students",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "b-incription",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"collegeNotebook\": 3,\r\n    \"id_career\": 1,\r\n    \"inscriptionDate\": \"2022-10-12\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/register",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c-getStudents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/students",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "c-getStudents-withParam",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/students?order=name",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students"
+					],
+					"query": [
+						{
+							"key": "order",
+							"value": "name"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "d-getStudentsByLibreta",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/students/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "e-getStudentsByGenre",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/students/genero/F",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"genero",
+						"F"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "f-careersWithStudents",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/careerReport",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"careerReport"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "g-getStudentsByCareers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/students/careerCity/tudai/Azul",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"careerCity",
+						"tudai",
+						"Azul"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editStudent",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"dni\": 348,\n    \"bornDate\": \"2021-08-11\",\n    \"gender\": \"M\",\n    \"name\": \"Gabriel\",\n    \"surname\": \"Ballone\",\n    \"city\": \"Tres Arroyos\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/students/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"students",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCourses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/courses",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCareers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/careers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"careers"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

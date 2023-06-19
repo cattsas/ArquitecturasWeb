@@ -1,0 +1,76 @@
+\hypertarget{interface_interface_1_1_d_a_o_factura_producto}{}\doxysection{Interface.\+DAOFactura\+Producto Interface Reference}
+\label{interface_interface_1_1_d_a_o_factura_producto}\index{Interface.DAOFacturaProducto@{Interface.DAOFacturaProducto}}
+
+
+Inheritance diagram for Interface.\+DAOFactura\+Producto\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_interface_1_1_d_a_o_factura_producto__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_producto_aab89485c631d24ef5b88481b5a38d461}{create\+Factura\+Producto}} ()
+\item 
+void \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_producto_a3df8f5220cb2d1ce587e411f9b5a10d3}{insert\+Factura\+Producto}} (int id\+Factura, int id\+Producto, int cantidad)
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_factura_producto}{Factura\+Producto}} $>$ \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_producto_ae1e45c846592a1c079ea30ead9bcf921}{detalle\+Factura}} (int id)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_factura_producto_aab89485c631d24ef5b88481b5a38d461}\label{interface_interface_1_1_d_a_o_factura_producto_aab89485c631d24ef5b88481b5a38d461}} 
+\index{Interface.DAOFacturaProducto@{Interface.DAOFacturaProducto}!createFacturaProducto@{createFacturaProducto}}
+\index{createFacturaProducto@{createFacturaProducto}!Interface.DAOFacturaProducto@{Interface.DAOFacturaProducto}}
+\doxysubsubsection{\texorpdfstring{createFacturaProducto()}{createFacturaProducto()}}
+{\footnotesize\ttfamily void Interface.\+DAOFactura\+Producto.\+create\+Factura\+Producto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Create a table Factura\+Producto. 
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_producto_mysql_impl_a31723a2e4f423ed96691af1a5f1c8fd2}{My\+SQLDAO.\+Factura\+Producto\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_factura_producto_derby_impl_af99ab21fce7cb3ed2a9bd7711d2168cc}{My\+Derby\+DAO.\+Factura\+Producto\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_factura_producto_ae1e45c846592a1c079ea30ead9bcf921}\label{interface_interface_1_1_d_a_o_factura_producto_ae1e45c846592a1c079ea30ead9bcf921}} 
+\index{Interface.DAOFacturaProducto@{Interface.DAOFacturaProducto}!detalleFactura@{detalleFactura}}
+\index{detalleFactura@{detalleFactura}!Interface.DAOFacturaProducto@{Interface.DAOFacturaProducto}}
+\doxysubsubsection{\texorpdfstring{detalleFactura()}{detalleFactura()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_factura_producto}{Factura\+Producto}}$>$ Interface.\+DAOFactura\+Producto.\+detalle\+Factura (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+Lists the Producto objects for the specified Factura. 
+\begin{DoxyParams}{Parameters}
+{\em id} & the Factura identifier. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array\+List of Factura\+Producto 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_producto_mysql_impl_a9a06ceddeec350a5a1bb1a7e16060d6d}{My\+SQLDAO.\+Factura\+Producto\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_factura_producto_derby_impl_aa2a1e3c4c73dae8a54cdd4014852e63a}{My\+Derby\+DAO.\+Factura\+Producto\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_factura_producto_a3df8f5220cb2d1ce587e411f9b5a10d3}\label{interface_interface_1_1_d_a_o_factura_producto_a3df8f5220cb2d1ce587e411f9b5a10d3}} 
+\index{Interface.DAOFacturaProducto@{Interface.DAOFacturaProducto}!insertFacturaProducto@{insertFacturaProducto}}
+\index{insertFacturaProducto@{insertFacturaProducto}!Interface.DAOFacturaProducto@{Interface.DAOFacturaProducto}}
+\doxysubsubsection{\texorpdfstring{insertFacturaProducto()}{insertFacturaProducto()}}
+{\footnotesize\ttfamily void Interface.\+DAOFactura\+Producto.\+insert\+Factura\+Producto (\begin{DoxyParamCaption}\item[{int}]{id\+Factura,  }\item[{int}]{id\+Producto,  }\item[{int}]{cantidad }\end{DoxyParamCaption})}
+
+Insert a new record Factura\+Producto in the table. 
+\begin{DoxyParams}{Parameters}
+{\em id\+Factura} & the Factura identifier. \\
+\hline
+{\em id\+Producto} & the Producto identifier. \\
+\hline
+{\em cantidad} & the amount of Producto included in the Factura. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_producto_mysql_impl_a78bff4af424171893342b6028637a323}{My\+SQLDAO.\+Factura\+Producto\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_factura_producto_derby_impl_aa52ccd94060175a4bac0a9a674d60b7c}{My\+Derby\+DAO.\+Factura\+Producto\+Derby\+Impl}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Interface/DAOFactura\+Producto.\+java\end{DoxyCompactItemize}

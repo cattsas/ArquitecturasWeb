@@ -1,0 +1,8 @@
+<map id="Connection.ConexionMySql" name="Connection.ConexionMySql">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,205,133"/>
+<area shape="rect" id="node2" href="$class_my_derby_d_a_o_1_1_producto_derby_impl.html" title=" " alt="" coords="253,5,492,32"/>
+<area shape="rect" id="node3" href="$class_my_s_q_l_d_a_o_1_1_cliente_mysql_impl.html" title=" " alt="" coords="265,56,480,83"/>
+<area shape="rect" id="node4" href="$class_my_s_q_l_d_a_o_1_1_factura_mysql_impl.html" title=" " alt="" coords="265,107,480,133"/>
+<area shape="rect" id="node5" href="$class_my_s_q_l_d_a_o_1_1_factura_producto_mysql_impl.html" title=" " alt="" coords="271,158,475,199"/>
+<area shape="rect" id="node6" href="$class_my_s_q_l_d_a_o_1_1_producto_mysql_impl.html" title=" " alt="" coords="260,224,485,251"/>
+</map>

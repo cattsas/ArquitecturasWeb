@@ -1,0 +1,98 @@
+\hypertarget{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl}{}\doxysection{My\+SQLDAO.\+Factura\+Mysql\+Impl Class Reference}
+\label{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl}\index{MySQLDAO.FacturaMysqlImpl@{MySQLDAO.FacturaMysqlImpl}}
+
+
+Inheritance diagram for My\+SQLDAO.\+Factura\+Mysql\+Impl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for My\+SQLDAO.\+Factura\+Mysql\+Impl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_factura}{Factura}} $>$ \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a2cfda626b2faac98230711d06b6217ea}{select\+Facturas}} ()
+\item 
+void \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a00cae6b3f714472497fbdd1cf08d0a26}{create\+Factura}} ()
+\item 
+void \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_ab862f6d008f5a1338fe75189c53e09ad}{insert\+Factura}} (int id\+Factura, int id\+Cliente)
+\item 
+\mbox{\hyperlink{class_modelo_1_1_factura}{Factura}} \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a90d787e4e58004fca4c255eaecd7c9a2}{get\+Factura}} (int id\+Factura)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a00cae6b3f714472497fbdd1cf08d0a26}\label{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a00cae6b3f714472497fbdd1cf08d0a26}} 
+\index{MySQLDAO.FacturaMysqlImpl@{MySQLDAO.FacturaMysqlImpl}!createFactura@{createFactura}}
+\index{createFactura@{createFactura}!MySQLDAO.FacturaMysqlImpl@{MySQLDAO.FacturaMysqlImpl}}
+\doxysubsubsection{\texorpdfstring{createFactura()}{createFactura()}}
+{\footnotesize\ttfamily void My\+SQLDAO.\+Factura\+Mysql\+Impl.\+create\+Factura (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create a table Factura. 
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_ac692aafe0542e5c8e68897de85546dff}{Interface.\+DAOFactura}}.
+
+\mbox{\Hypertarget{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a90d787e4e58004fca4c255eaecd7c9a2}\label{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a90d787e4e58004fca4c255eaecd7c9a2}} 
+\index{MySQLDAO.FacturaMysqlImpl@{MySQLDAO.FacturaMysqlImpl}!getFactura@{getFactura}}
+\index{getFactura@{getFactura}!MySQLDAO.FacturaMysqlImpl@{MySQLDAO.FacturaMysqlImpl}}
+\doxysubsubsection{\texorpdfstring{getFactura()}{getFactura()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_modelo_1_1_factura}{Factura}} My\+SQLDAO.\+Factura\+Mysql\+Impl.\+get\+Factura (\begin{DoxyParamCaption}\item[{int}]{id\+Factura }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Obtains the Factura whit specified id. 
+\begin{DoxyParams}{Parameters}
+{\em id\+Factura} & the Factura identifier. ~\newline
+ \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_a7016c8201a86de5db7f83d5213a16026}{Interface.\+DAOFactura}}.
+
+\mbox{\Hypertarget{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_ab862f6d008f5a1338fe75189c53e09ad}\label{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_ab862f6d008f5a1338fe75189c53e09ad}} 
+\index{MySQLDAO.FacturaMysqlImpl@{MySQLDAO.FacturaMysqlImpl}!insertFactura@{insertFactura}}
+\index{insertFactura@{insertFactura}!MySQLDAO.FacturaMysqlImpl@{MySQLDAO.FacturaMysqlImpl}}
+\doxysubsubsection{\texorpdfstring{insertFactura()}{insertFactura()}}
+{\footnotesize\ttfamily void My\+SQLDAO.\+Factura\+Mysql\+Impl.\+insert\+Factura (\begin{DoxyParamCaption}\item[{int}]{id\+Factura,  }\item[{int}]{id\+Cliente }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Insert a new record Factura in the table. 
+\begin{DoxyParams}{Parameters}
+{\em id\+Factura} & the Factura identifier. \\
+\hline
+{\em id\+Cliente} & the Cliente identifier. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_a18e1d2d50d98739b50e73c7e31d26325}{Interface.\+DAOFactura}}.
+
+\mbox{\Hypertarget{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a2cfda626b2faac98230711d06b6217ea}\label{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a2cfda626b2faac98230711d06b6217ea}} 
+\index{MySQLDAO.FacturaMysqlImpl@{MySQLDAO.FacturaMysqlImpl}!selectFacturas@{selectFacturas}}
+\index{selectFacturas@{selectFacturas}!MySQLDAO.FacturaMysqlImpl@{MySQLDAO.FacturaMysqlImpl}}
+\doxysubsubsection{\texorpdfstring{selectFacturas()}{selectFacturas()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_factura}{Factura}}$>$ My\+SQLDAO.\+Factura\+Mysql\+Impl.\+select\+Facturas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets the list of all Factura records. ~\newline
+ \begin{DoxyReturn}{Returns}
+Array\+List of Factura. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_a39207f9e9c1cf48d8f6839dfec143077}{Interface.\+DAOFactura}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+My\+SQLDAO/Factura\+Mysql\+Impl.\+java\end{DoxyCompactItemize}

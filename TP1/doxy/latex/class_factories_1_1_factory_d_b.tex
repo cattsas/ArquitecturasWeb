@@ -1,0 +1,119 @@
+\hypertarget{class_factories_1_1_factory_d_b}{}\doxysection{Factories.\+Factory\+DB Class Reference}
+\label{class_factories_1_1_factory_d_b}\index{Factories.FactoryDB@{Factories.FactoryDB}}
+
+
+Inheritance diagram for Factories.\+Factory\+DB\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_factories_1_1_factory_d_b__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente}{DAOCliente}} \mbox{\hyperlink{class_factories_1_1_factory_d_b_af4e2a09a5c2c54ca1ea6a0d87009ad5f}{get\+DAOCliente}} ()
+\item 
+abstract \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura}{DAOFactura}} \mbox{\hyperlink{class_factories_1_1_factory_d_b_a0034d7e32908754d71fa7033511093b9}{get\+DAOFactura}} ()
+\item 
+abstract \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto}{DAOProducto}} \mbox{\hyperlink{class_factories_1_1_factory_d_b_a4ffa07cafd8a7b38eb53744ec236b6ae}{get\+DAOProducto}} ()
+\item 
+abstract \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_producto}{DAOFactura\+Producto}} \mbox{\hyperlink{class_factories_1_1_factory_d_b_a2b1f4edd9d04237c0e353c914879cb46}{get\+DAOFactura\+Producto}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_factories_1_1_factory_d_b}{Factory\+DB}} \mbox{\hyperlink{class_factories_1_1_factory_d_b_a8cdf9218b78e821f1f9023244fe20754}{get\+Connetion}} (String db)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_factories_1_1_factory_d_b_a8cdf9218b78e821f1f9023244fe20754}\label{class_factories_1_1_factory_d_b_a8cdf9218b78e821f1f9023244fe20754}} 
+\index{Factories.FactoryDB@{Factories.FactoryDB}!getConnetion@{getConnetion}}
+\index{getConnetion@{getConnetion}!Factories.FactoryDB@{Factories.FactoryDB}}
+\doxysubsubsection{\texorpdfstring{getConnetion()}{getConnetion()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_factories_1_1_factory_d_b}{Factory\+DB}} Factories.\+Factory\+DB.\+get\+Connetion (\begin{DoxyParamCaption}\item[{String}]{db }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Obtains the connection according to the specified technology 
+\begin{DoxyParams}{Parameters}
+{\em db} & the String that identifies the DB Engine \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_factories_1_1_factory_d_b}{Factory\+DB}} object 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+\mbox{\hyperlink{class_factories_1_1_factory_derby}{Factory\+Derby}} class 
+
+Factory\+SQL class 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{class_factories_1_1_factory_d_b_af4e2a09a5c2c54ca1ea6a0d87009ad5f}\label{class_factories_1_1_factory_d_b_af4e2a09a5c2c54ca1ea6a0d87009ad5f}} 
+\index{Factories.FactoryDB@{Factories.FactoryDB}!getDAOCliente@{getDAOCliente}}
+\index{getDAOCliente@{getDAOCliente}!Factories.FactoryDB@{Factories.FactoryDB}}
+\doxysubsubsection{\texorpdfstring{getDAOCliente()}{getDAOCliente()}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{interface_interface_1_1_d_a_o_cliente}{DAOCliente}} Factories.\+Factory\+DB.\+get\+DAOCliente (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Obtains a DAOCliente object \begin{DoxyReturn}{Returns}
+DAOCliente 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+DAOCliente interface 
+\end{DoxySeeAlso}
+
+
+Reimplemented in \mbox{\hyperlink{class_factories_1_1_factory_my_s_q_l_a0bb700099b8bc9c123432868e22252de}{Factories.\+Factory\+My\+SQL}}, and \mbox{\hyperlink{class_factories_1_1_factory_derby_aaf64e4506cf3e61d113b4a74640c1511}{Factories.\+Factory\+Derby}}.
+
+\mbox{\Hypertarget{class_factories_1_1_factory_d_b_a0034d7e32908754d71fa7033511093b9}\label{class_factories_1_1_factory_d_b_a0034d7e32908754d71fa7033511093b9}} 
+\index{Factories.FactoryDB@{Factories.FactoryDB}!getDAOFactura@{getDAOFactura}}
+\index{getDAOFactura@{getDAOFactura}!Factories.FactoryDB@{Factories.FactoryDB}}
+\doxysubsubsection{\texorpdfstring{getDAOFactura()}{getDAOFactura()}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura}{DAOFactura}} Factories.\+Factory\+DB.\+get\+DAOFactura (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Obtains a DAOFactura object \begin{DoxyReturn}{Returns}
+DAOFactura 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+DAOFactura interface 
+\end{DoxySeeAlso}
+
+
+Reimplemented in \mbox{\hyperlink{class_factories_1_1_factory_my_s_q_l_a9f9de08116c161aa54e6fdaf533525a1}{Factories.\+Factory\+My\+SQL}}, and \mbox{\hyperlink{class_factories_1_1_factory_derby_a887763770ebea03c64de480ce17e47cb}{Factories.\+Factory\+Derby}}.
+
+\mbox{\Hypertarget{class_factories_1_1_factory_d_b_a2b1f4edd9d04237c0e353c914879cb46}\label{class_factories_1_1_factory_d_b_a2b1f4edd9d04237c0e353c914879cb46}} 
+\index{Factories.FactoryDB@{Factories.FactoryDB}!getDAOFacturaProducto@{getDAOFacturaProducto}}
+\index{getDAOFacturaProducto@{getDAOFacturaProducto}!Factories.FactoryDB@{Factories.FactoryDB}}
+\doxysubsubsection{\texorpdfstring{getDAOFacturaProducto()}{getDAOFacturaProducto()}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_producto}{DAOFactura\+Producto}} Factories.\+Factory\+DB.\+get\+DAOFactura\+Producto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Obtains a DAOFactura\+Producto object \begin{DoxyReturn}{Returns}
+AOFactura\+Producto 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+DAOFactura\+Producto interface 
+\end{DoxySeeAlso}
+
+
+Reimplemented in \mbox{\hyperlink{class_factories_1_1_factory_my_s_q_l_a13cfde0f1848cd11e3f8c8f9cb189e3a}{Factories.\+Factory\+My\+SQL}}, and \mbox{\hyperlink{class_factories_1_1_factory_derby_a5fea3a838de489e31fb7386533cc9a0c}{Factories.\+Factory\+Derby}}.
+
+\mbox{\Hypertarget{class_factories_1_1_factory_d_b_a4ffa07cafd8a7b38eb53744ec236b6ae}\label{class_factories_1_1_factory_d_b_a4ffa07cafd8a7b38eb53744ec236b6ae}} 
+\index{Factories.FactoryDB@{Factories.FactoryDB}!getDAOProducto@{getDAOProducto}}
+\index{getDAOProducto@{getDAOProducto}!Factories.FactoryDB@{Factories.FactoryDB}}
+\doxysubsubsection{\texorpdfstring{getDAOProducto()}{getDAOProducto()}}
+{\footnotesize\ttfamily abstract \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto}{DAOProducto}} Factories.\+Factory\+DB.\+get\+DAOProducto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+Obtains a DAOProducto object \begin{DoxyReturn}{Returns}
+DAOProducto 
+\end{DoxyReturn}
+\begin{DoxySeeAlso}{See also}
+DAOProducto interface 
+\end{DoxySeeAlso}
+
+
+Reimplemented in \mbox{\hyperlink{class_factories_1_1_factory_my_s_q_l_adad2a45a9edf28a8620fd445762dbd08}{Factories.\+Factory\+My\+SQL}}, and \mbox{\hyperlink{class_factories_1_1_factory_derby_abf66d3273ae5e25bdd7763f63f6a8e0a}{Factories.\+Factory\+Derby}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Factories/Factory\+DB.\+java\end{DoxyCompactItemize}

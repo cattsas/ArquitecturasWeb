@@ -1,0 +1,88 @@
+\hypertarget{interface_interface_1_1_d_a_o_factura}{}\doxysection{Interface.\+DAOFactura Interface Reference}
+\label{interface_interface_1_1_d_a_o_factura}\index{Interface.DAOFactura@{Interface.DAOFactura}}
+
+
+Inheritance diagram for Interface.\+DAOFactura\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_interface_1_1_d_a_o_factura__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_factura}{Factura}} $>$ \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_a39207f9e9c1cf48d8f6839dfec143077}{select\+Facturas}} ()
+\item 
+void \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_ac692aafe0542e5c8e68897de85546dff}{create\+Factura}} ()
+\item 
+void \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_a18e1d2d50d98739b50e73c7e31d26325}{insert\+Factura}} (int id\+Factura, int id\+Cliente)
+\item 
+\mbox{\hyperlink{class_modelo_1_1_factura}{Factura}} \mbox{\hyperlink{interface_interface_1_1_d_a_o_factura_a7016c8201a86de5db7f83d5213a16026}{get\+Factura}} (int id\+Factura)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_factura_ac692aafe0542e5c8e68897de85546dff}\label{interface_interface_1_1_d_a_o_factura_ac692aafe0542e5c8e68897de85546dff}} 
+\index{Interface.DAOFactura@{Interface.DAOFactura}!createFactura@{createFactura}}
+\index{createFactura@{createFactura}!Interface.DAOFactura@{Interface.DAOFactura}}
+\doxysubsubsection{\texorpdfstring{createFactura()}{createFactura()}}
+{\footnotesize\ttfamily void Interface.\+DAOFactura.\+create\+Factura (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Create a table Factura. 
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a00cae6b3f714472497fbdd1cf08d0a26}{My\+SQLDAO.\+Factura\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_factura_derby_impl_a38b6a516728fff86191aca42c52b2a56}{My\+Derby\+DAO.\+Factura\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_factura_a7016c8201a86de5db7f83d5213a16026}\label{interface_interface_1_1_d_a_o_factura_a7016c8201a86de5db7f83d5213a16026}} 
+\index{Interface.DAOFactura@{Interface.DAOFactura}!getFactura@{getFactura}}
+\index{getFactura@{getFactura}!Interface.DAOFactura@{Interface.DAOFactura}}
+\doxysubsubsection{\texorpdfstring{getFactura()}{getFactura()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_modelo_1_1_factura}{Factura}} Interface.\+DAOFactura.\+get\+Factura (\begin{DoxyParamCaption}\item[{int}]{id\+Factura }\end{DoxyParamCaption})}
+
+Obtains the Factura whit specified id. 
+\begin{DoxyParams}{Parameters}
+{\em id\+Factura} & the Factura identifier. ~\newline
+ \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a90d787e4e58004fca4c255eaecd7c9a2}{My\+SQLDAO.\+Factura\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_factura_derby_impl_a7f6e25145808e775d3c9c92865dc4cbb}{My\+Derby\+DAO.\+Factura\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_factura_a18e1d2d50d98739b50e73c7e31d26325}\label{interface_interface_1_1_d_a_o_factura_a18e1d2d50d98739b50e73c7e31d26325}} 
+\index{Interface.DAOFactura@{Interface.DAOFactura}!insertFactura@{insertFactura}}
+\index{insertFactura@{insertFactura}!Interface.DAOFactura@{Interface.DAOFactura}}
+\doxysubsubsection{\texorpdfstring{insertFactura()}{insertFactura()}}
+{\footnotesize\ttfamily void Interface.\+DAOFactura.\+insert\+Factura (\begin{DoxyParamCaption}\item[{int}]{id\+Factura,  }\item[{int}]{id\+Cliente }\end{DoxyParamCaption})}
+
+Insert a new record Factura in the table. 
+\begin{DoxyParams}{Parameters}
+{\em id\+Factura} & the Factura identifier. \\
+\hline
+{\em id\+Cliente} & the Cliente identifier. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_ab862f6d008f5a1338fe75189c53e09ad}{My\+SQLDAO.\+Factura\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_factura_derby_impl_adb07ce5826a6eca7148aa1b69b8bc17b}{My\+Derby\+DAO.\+Factura\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_factura_a39207f9e9c1cf48d8f6839dfec143077}\label{interface_interface_1_1_d_a_o_factura_a39207f9e9c1cf48d8f6839dfec143077}} 
+\index{Interface.DAOFactura@{Interface.DAOFactura}!selectFacturas@{selectFacturas}}
+\index{selectFacturas@{selectFacturas}!Interface.DAOFactura@{Interface.DAOFactura}}
+\doxysubsubsection{\texorpdfstring{selectFacturas()}{selectFacturas()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_factura}{Factura}}$>$ Interface.\+DAOFactura.\+select\+Facturas (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the list of all Factura records. ~\newline
+ \begin{DoxyReturn}{Returns}
+Array\+List of Factura. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_factura_mysql_impl_a2cfda626b2faac98230711d06b6217ea}{My\+SQLDAO.\+Factura\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_factura_derby_impl_a12b2578e364dd6efc9089e1f0a80f416}{My\+Derby\+DAO.\+Factura\+Derby\+Impl}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Interface/DAOFactura.\+java\end{DoxyCompactItemize}

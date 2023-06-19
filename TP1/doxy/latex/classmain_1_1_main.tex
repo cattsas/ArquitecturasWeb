@@ -1,0 +1,40 @@
+\hypertarget{classmain_1_1_main}{}\doxysection{main.\+Main Class Reference}
+\label{classmain_1_1_main}\index{main.Main@{main.Main}}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classmain_1_1_main_a896f71a651b705304693dbfe0cf9ca63}\label{classmain_1_1_main_a896f71a651b705304693dbfe0cf9ca63}} 
+static void {\bfseries main} (String\mbox{[}$\,$\mbox{]} args)
+\item 
+static void \mbox{\hyperlink{classmain_1_1_main_a2287fb5b0c7a76a0807c9b53867fdc1d}{create\+Productos\+CSV}} (\mbox{\hyperlink{interface_interface_1_1_d_a_o_producto}{DAOProducto}} dao\+Producto)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmain_1_1_main_a2287fb5b0c7a76a0807c9b53867fdc1d}\label{classmain_1_1_main_a2287fb5b0c7a76a0807c9b53867fdc1d}} 
+\index{main.Main@{main.Main}!createProductosCSV@{createProductosCSV}}
+\index{createProductosCSV@{createProductosCSV}!main.Main@{main.Main}}
+\doxysubsubsection{\texorpdfstring{createProductosCSV()}{createProductosCSV()}}
+{\footnotesize\ttfamily static void main.\+Main.\+create\+Productos\+CSV (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_interface_1_1_d_a_o_producto}{DAOProducto}}}]{dao\+Producto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+This method populate the table Producto from a csv file. 
+\begin{DoxyParams}{Parameters}
+{\em dao\+Producto.} & Is obtained from BBDD through get\+DAOProducto. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em File\+Not\+Found\+Exception} & Not found file csv. \\
+\hline
+{\em IOException} & If an input or output. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{See also}
+Class DAOProducto. ~\newline
+ 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/Main.\+java\end{DoxyCompactItemize}

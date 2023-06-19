@@ -1,0 +1,108 @@
+\hypertarget{interface_interface_1_1_d_a_o_producto}{}\doxysection{Interface.\+DAOProducto Interface Reference}
+\label{interface_interface_1_1_d_a_o_producto}\index{Interface.DAOProducto@{Interface.DAOProducto}}
+
+
+Inheritance diagram for Interface.\+DAOProducto\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_interface_1_1_d_a_o_producto__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_producto}{Producto}} $>$ \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto_a6437b073ade82d8b0272ca453a9a57ea}{select\+Productos}} ()
+\item 
+void \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto_a175e1f3b57400a69233d37a41dfd0b3e}{create\+Producto}} ()
+\item 
+void \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto_a3f8557ba8d83e1cd6ad7e4e53fbcf526}{insert\+Producto}} (int id, String name, float value)
+\item 
+\mbox{\hyperlink{class_modelo_1_1_producto}{Producto}} \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto_abfbf7ff2f88317f352a96ebf90a0e5a5}{get\+Producto}} (int id\+Producto)
+\item 
+\mbox{\hyperlink{class_modelo_1_1_producto}{Producto}} \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto_acf39bc10e4ef45d2683524755c19ff20}{get\+Mayor\+Recaudacion}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_producto_a175e1f3b57400a69233d37a41dfd0b3e}\label{interface_interface_1_1_d_a_o_producto_a175e1f3b57400a69233d37a41dfd0b3e}} 
+\index{Interface.DAOProducto@{Interface.DAOProducto}!createProducto@{createProducto}}
+\index{createProducto@{createProducto}!Interface.DAOProducto@{Interface.DAOProducto}}
+\doxysubsubsection{\texorpdfstring{createProducto()}{createProducto()}}
+{\footnotesize\ttfamily void Interface.\+DAOProducto.\+create\+Producto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Create a table Producto. 
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_producto_mysql_impl_a3338f80d138b688817876469202a6f80}{My\+SQLDAO.\+Producto\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_producto_derby_impl_aef3689debf54cd1e271a348ca8a978de}{My\+Derby\+DAO.\+Producto\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_producto_acf39bc10e4ef45d2683524755c19ff20}\label{interface_interface_1_1_d_a_o_producto_acf39bc10e4ef45d2683524755c19ff20}} 
+\index{Interface.DAOProducto@{Interface.DAOProducto}!getMayorRecaudacion@{getMayorRecaudacion}}
+\index{getMayorRecaudacion@{getMayorRecaudacion}!Interface.DAOProducto@{Interface.DAOProducto}}
+\doxysubsubsection{\texorpdfstring{getMayorRecaudacion()}{getMayorRecaudacion()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_modelo_1_1_producto}{Producto}} Interface.\+DAOProducto.\+get\+Mayor\+Recaudacion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the highest grossing Producto. ~\newline
+ \begin{DoxyReturn}{Returns}
+Producto 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_producto_mysql_impl_aa86fb915d7b00e5ad17fc3c7c2523f52}{My\+SQLDAO.\+Producto\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_producto_derby_impl_acb79e58853b7a5280fb0648bf2cf8b5c}{My\+Derby\+DAO.\+Producto\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_producto_abfbf7ff2f88317f352a96ebf90a0e5a5}\label{interface_interface_1_1_d_a_o_producto_abfbf7ff2f88317f352a96ebf90a0e5a5}} 
+\index{Interface.DAOProducto@{Interface.DAOProducto}!getProducto@{getProducto}}
+\index{getProducto@{getProducto}!Interface.DAOProducto@{Interface.DAOProducto}}
+\doxysubsubsection{\texorpdfstring{getProducto()}{getProducto()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_modelo_1_1_producto}{Producto}} Interface.\+DAOProducto.\+get\+Producto (\begin{DoxyParamCaption}\item[{int}]{id\+Producto }\end{DoxyParamCaption})}
+
+Gets a Producto by ID 
+\begin{DoxyParams}{Parameters}
+{\em id\+Producto} & the Producto identification number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Producto 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_producto_mysql_impl_aeb54737990dc8a7175d339f6f7bce9d7}{My\+SQLDAO.\+Producto\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_producto_derby_impl_a53d755200473a69c7147d854d8de9062}{My\+Derby\+DAO.\+Producto\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_producto_a3f8557ba8d83e1cd6ad7e4e53fbcf526}\label{interface_interface_1_1_d_a_o_producto_a3f8557ba8d83e1cd6ad7e4e53fbcf526}} 
+\index{Interface.DAOProducto@{Interface.DAOProducto}!insertProducto@{insertProducto}}
+\index{insertProducto@{insertProducto}!Interface.DAOProducto@{Interface.DAOProducto}}
+\doxysubsubsection{\texorpdfstring{insertProducto()}{insertProducto()}}
+{\footnotesize\ttfamily void Interface.\+DAOProducto.\+insert\+Producto (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{String}]{name,  }\item[{float}]{value }\end{DoxyParamCaption})}
+
+Insert a new record Producto in the table. 
+\begin{DoxyParams}{Parameters}
+{\em id} & the Producto identifier. \\
+\hline
+{\em name} & the Producto name. \\
+\hline
+{\em value} & the Producto value. \\
+\hline
+\end{DoxyParams}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_producto_mysql_impl_a45384a59a4ad276b3c9b3de1f57eba03}{My\+SQLDAO.\+Producto\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_producto_derby_impl_a7e10c300cc6c35878b0cab59fda5a547}{My\+Derby\+DAO.\+Producto\+Derby\+Impl}}.
+
+\mbox{\Hypertarget{interface_interface_1_1_d_a_o_producto_a6437b073ade82d8b0272ca453a9a57ea}\label{interface_interface_1_1_d_a_o_producto_a6437b073ade82d8b0272ca453a9a57ea}} 
+\index{Interface.DAOProducto@{Interface.DAOProducto}!selectProductos@{selectProductos}}
+\index{selectProductos@{selectProductos}!Interface.DAOProducto@{Interface.DAOProducto}}
+\doxysubsubsection{\texorpdfstring{selectProductos()}{selectProductos()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_producto}{Producto}}$>$ Interface.\+DAOProducto.\+select\+Productos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the list of all Producto records. ~\newline
+ \begin{DoxyReturn}{Returns}
+Array\+List of Producto. 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_my_s_q_l_d_a_o_1_1_producto_mysql_impl_aec9d90263450e3f6fc0c87a4631b0a39}{My\+SQLDAO.\+Producto\+Mysql\+Impl}}, and \mbox{\hyperlink{class_my_derby_d_a_o_1_1_producto_derby_impl_a5de08f4e688f4b013cb00eeb90957bed}{My\+Derby\+DAO.\+Producto\+Derby\+Impl}}.
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+Interface/DAOProducto.\+java\end{DoxyCompactItemize}

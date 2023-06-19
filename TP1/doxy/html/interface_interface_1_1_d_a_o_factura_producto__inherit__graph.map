@@ -1,0 +1,5 @@
+<map id="Interface.DAOFacturaProducto" name="Interface.DAOFacturaProducto">
+<area shape="rect" id="node1" title=" " alt="" coords="123,5,341,32"/>
+<area shape="rect" id="node2" href="$class_my_derby_d_a_o_1_1_factura_producto_derby_impl.html" title=" " alt="" coords="5,80,224,121"/>
+<area shape="rect" id="node3" href="$class_my_s_q_l_d_a_o_1_1_factura_producto_mysql_impl.html" title=" " alt="" coords="249,80,453,121"/>
+</map>

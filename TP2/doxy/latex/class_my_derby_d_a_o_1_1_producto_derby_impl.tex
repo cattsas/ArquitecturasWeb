@@ -1,0 +1,118 @@
+\hypertarget{class_my_derby_d_a_o_1_1_producto_derby_impl}{}\doxysection{My\+Derby\+DAO.\+Producto\+Derby\+Impl Class Reference}
+\label{class_my_derby_d_a_o_1_1_producto_derby_impl}\index{MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}}
+
+
+Inheritance diagram for My\+Derby\+DAO.\+Producto\+Derby\+Impl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_my_derby_d_a_o_1_1_producto_derby_impl__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for My\+Derby\+DAO.\+Producto\+Derby\+Impl\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_my_derby_d_a_o_1_1_producto_derby_impl__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{class_modelo_1_1_producto}{Producto}} $>$ \mbox{\hyperlink{class_my_derby_d_a_o_1_1_producto_derby_impl_a5de08f4e688f4b013cb00eeb90957bed}{select\+Productos}} ()
+\item 
+void \mbox{\hyperlink{class_my_derby_d_a_o_1_1_producto_derby_impl_aef3689debf54cd1e271a348ca8a978de}{create\+Producto}} ()
+\item 
+void \mbox{\hyperlink{class_my_derby_d_a_o_1_1_producto_derby_impl_a7e10c300cc6c35878b0cab59fda5a547}{insert\+Producto}} (int id, String name, float value)
+\item 
+\mbox{\hyperlink{class_modelo_1_1_producto}{Producto}} \mbox{\hyperlink{class_my_derby_d_a_o_1_1_producto_derby_impl_acb79e58853b7a5280fb0648bf2cf8b5c}{get\+Mayor\+Recaudacion}} ()
+\item 
+\mbox{\hyperlink{class_modelo_1_1_producto}{Producto}} \mbox{\hyperlink{class_my_derby_d_a_o_1_1_producto_derby_impl_a53d755200473a69c7147d854d8de9062}{get\+Producto}} (int id\+Producto)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_producto_derby_impl_aef3689debf54cd1e271a348ca8a978de}\label{class_my_derby_d_a_o_1_1_producto_derby_impl_aef3689debf54cd1e271a348ca8a978de}} 
+\index{MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}!createProducto@{createProducto}}
+\index{createProducto@{createProducto}!MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{createProducto()}{createProducto()}}
+{\footnotesize\ttfamily void My\+Derby\+DAO.\+Producto\+Derby\+Impl.\+create\+Producto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Create a table Producto. 
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto_a175e1f3b57400a69233d37a41dfd0b3e}{Interface.\+DAOProducto}}.
+
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_producto_derby_impl_acb79e58853b7a5280fb0648bf2cf8b5c}\label{class_my_derby_d_a_o_1_1_producto_derby_impl_acb79e58853b7a5280fb0648bf2cf8b5c}} 
+\index{MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}!getMayorRecaudacion@{getMayorRecaudacion}}
+\index{getMayorRecaudacion@{getMayorRecaudacion}!MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{getMayorRecaudacion()}{getMayorRecaudacion()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_modelo_1_1_producto}{Producto}} My\+Derby\+DAO.\+Producto\+Derby\+Impl.\+get\+Mayor\+Recaudacion (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets the highest grossing Producto. ~\newline
+ \begin{DoxyReturn}{Returns}
+Producto 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto_acf39bc10e4ef45d2683524755c19ff20}{Interface.\+DAOProducto}}.
+
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_producto_derby_impl_a53d755200473a69c7147d854d8de9062}\label{class_my_derby_d_a_o_1_1_producto_derby_impl_a53d755200473a69c7147d854d8de9062}} 
+\index{MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}!getProducto@{getProducto}}
+\index{getProducto@{getProducto}!MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{getProducto()}{getProducto()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_modelo_1_1_producto}{Producto}} My\+Derby\+DAO.\+Producto\+Derby\+Impl.\+get\+Producto (\begin{DoxyParamCaption}\item[{int}]{id\+Producto }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets a Producto by ID 
+\begin{DoxyParams}{Parameters}
+{\em id\+Producto} & the Producto identification number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Producto 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto_abfbf7ff2f88317f352a96ebf90a0e5a5}{Interface.\+DAOProducto}}.
+
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_producto_derby_impl_a7e10c300cc6c35878b0cab59fda5a547}\label{class_my_derby_d_a_o_1_1_producto_derby_impl_a7e10c300cc6c35878b0cab59fda5a547}} 
+\index{MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}!insertProducto@{insertProducto}}
+\index{insertProducto@{insertProducto}!MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{insertProducto()}{insertProducto()}}
+{\footnotesize\ttfamily void My\+Derby\+DAO.\+Producto\+Derby\+Impl.\+insert\+Producto (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{String}]{name,  }\item[{float}]{value }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Insert a new record Producto in the table. 
+\begin{DoxyParams}{Parameters}
+{\em id} & the Producto identifier. \\
+\hline
+{\em name} & the Producto name. \\
+\hline
+{\em value} & the Producto value. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto_a3f8557ba8d83e1cd6ad7e4e53fbcf526}{Interface.\+DAOProducto}}.
+
+\mbox{\Hypertarget{class_my_derby_d_a_o_1_1_producto_derby_impl_a5de08f4e688f4b013cb00eeb90957bed}\label{class_my_derby_d_a_o_1_1_producto_derby_impl_a5de08f4e688f4b013cb00eeb90957bed}} 
+\index{MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}!selectProductos@{selectProductos}}
+\index{selectProductos@{selectProductos}!MyDerbyDAO.ProductoDerbyImpl@{MyDerbyDAO.ProductoDerbyImpl}}
+\doxysubsubsection{\texorpdfstring{selectProductos()}{selectProductos()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{class_modelo_1_1_producto}{Producto}}$>$ My\+Derby\+DAO.\+Producto\+Derby\+Impl.\+select\+Productos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Gets the list of all Producto records. ~\newline
+ \begin{DoxyReturn}{Returns}
+Array\+List of Producto. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{interface_interface_1_1_d_a_o_producto_a6437b073ade82d8b0272ca453a9a57ea}{Interface.\+DAOProducto}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\+My\+Derby\+DAO/Producto\+Derby\+Impl.\+java\end{DoxyCompactItemize}
